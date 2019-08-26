@@ -1,46 +1,48 @@
-Open main1.py. Before running it, what do you expect this program to do? 
+Open main1.py. Before running it, what do you expect this program to do? It looks like it would greet the user and then ask the user the question in the 
+    input() and wait for the user to type an answer.
 
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
 
-What do you think the program did with what you typed?
+What do you think the program did with what you typed? Nothing.
 
 
 
-Open main2.py. Before running it, describe how this is different than main1.py. 
+Open main2.py. Before running it, describe how this is different than main1.py. It saves the input to a variable and then prints it to the user.
 
-What do you think the color = input() will do? 
+What do you think the color = input() will do? Save the user input to a fixed location.
 
 Run the program in the terminal and answer the question. Did the program do what you expected?
 
 
 
-Open main3.py. Before running it, describe how this is different than main2.py. 
+Open main3.py. Before running it, describe how this is different than main2.py. It has an if-else statement that prints different strings based on the user input.
 
-What is happening on lines 11–14? 
+What is happening on lines 11–14? These are the cases for the if-else statement that determines what the system prints. It prints "Correct!" if the user types
+    "red" and "Sorry, try again." if the input is anything else.
 
-Why are lines 12 and 14 indented? 
+Why are lines 12 and 14 indented? It is to keep the heirarchy of code. The print statements are subsets (not sure what the word is) of the if or else lines so that they will
+    only run in those cases.
 
-Run the program and answer the question. What happens if you don’t capitalize Red? 
+Run the program and answer the question. What happens if you don’t capitalize Red? It will go to the else case and print 
+Sorry, try again."
 
-What does this tell you about "color"?
-
-
-
-Open main4.py. Before running it, describe how this is different than main2.py. 
-
-What problem is this trying to solve? 
-
-Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
+What does this tell you about "color"? 
 
 
 
-Open main5.py. What do you expect line 11 to do? 
+Open main4.py. Before running it, describe how this is different than main2.py. It has an or statement in the if case that make it accept "Red" or "red".
 
-What problem is it trying to solve? 
+What problem is this trying to solve? It is trying to make that if statement case insensitive. 
 
-Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
+Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)? It will return false and go to the else statement.
 
 
+
+Open main5.py. What do you expect line 11 to do? It will turn any input into the same characters but lowercase.
+
+What problem is it trying to solve? It is trying to make if statement case insensitive.
+
+Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)? It will return fase and choose the else case.
 
 Open main6.py. How is line 11 different than main5.py? 
 
